@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: black;
+    color: black;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+a:hover{
+    color: white;
+}
+
+li:hover{
+    color: black;
+} 
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+    font-size: 16px;
+}
+.banner {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.post {
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post img {
+    display: flex;
+    justify-content: center;    
+    width: 50%;
+    height: 600px;
+}
+
+#imagemLogo{
+    width: 70%;
+}
+
+.post-content {
+    padding: 15px;
+}
+.post-content h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.post-content p {
+    color: #666;
+}
+.post-content a {
+    color: #3498db;
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+strong{
+    color: black;
+}
